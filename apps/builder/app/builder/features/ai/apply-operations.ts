@@ -1,6 +1,10 @@
 import { nanoid } from "nanoid";
-import { getStyleDeclKey, Instance, type StyleSource } from "@webstudio-is/sdk";
-import { generateDataFromEmbedTemplate } from "@webstudio-is/react-sdk";
+import {
+  getStyleDeclKey,
+  Instance,
+  isComponentDetachable,
+  type StyleSource,
+} from "@webstudio-is/sdk";
 import type { copywriter, operations } from "@webstudio-is/ai";
 import { serverSyncStore } from "~/shared/sync";
 import { isBaseBreakpoint } from "~/shared/breakpoints";
@@ -23,8 +27,8 @@ import {
 } from "~/shared/nano-states";
 import type { InstanceSelector } from "~/shared/tree-utils";
 import { $selectedInstance, getInstancePath } from "~/shared/awareness";
-import { isInstanceDetachable } from "~/shared/matcher";
 import { isRichTextTree } from "~/shared/content-model";
+import { generateDataFromEmbedTemplate } from "./embed-template";
 
 export const applyOperations = (operations: operations.WsOperations) => {
   for (const operation of operations) {
@@ -91,15 +95,10 @@ const deleteInstanceByOp = (
     if (instanceSelector.length === 1) {
       return;
     }
-    const metas = $registeredComponentMetas.get();
     updateWebstudioData((data) => {
-      if (
-        isInstanceDetachable({
-          metas,
-          instances: data.instances,
-          instanceSelector,
-        }) === false
-      ) {
+      const [instanceId] = instanceSelector;
+      const instance = data.instances.get(instanceId);
+      if (instance && !isComponentDetachable(instance.component)) {
         return;
       }
       deleteInstanceMutable(
