@@ -30,6 +30,61 @@ patchedDependencies:
 importers:
 
   .:
+    dependencies:
+      '@react-router/dev':
+        specifier: ^7.5.0
+        version: 7.5.0(@react-router/serve@7.5.0(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2))(@types/node@22.13.10)(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2)(vite@5.4.11(@types/node@22.13.10))(wrangler@3.63.2(@cloudflare/workers-types@4.20240701.0))
+      '@react-router/fs-routes':
+        specifier: ^7.5.0
+        version: 7.5.0(@react-router/dev@7.5.0(@react-router/serve@7.5.0(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2))(@types/node@22.13.10)(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2)(vite@5.4.11(@types/node@22.13.10))(wrangler@3.63.2(@cloudflare/workers-types@4.20240701.0)))(typescript@5.8.2)
+      '@react-router/node':
+        specifier: ^7.5.0
+        version: 7.5.0(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2)
+      '@react-router/serve':
+        specifier: ^7.5.0
+        version: 7.5.0(react-router@7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318))(typescript@5.8.2)
+      '@webstudio-is/image':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/react-sdk':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/sdk-components-animation':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk-components-react':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk-components-react-radix':
+        specifier: 0.216.0
+        version: 0.216.0(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk-components-react-router':
+        specifier: 0.216.0
+        version: 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      h3:
+        specifier: ^1.15.1
+        version: 1.15.1
+      ipx:
+        specifier: ^3.0.3
+        version: 3.0.3
+      isbot:
+        specifier: ^5.1.25
+        version: 5.1.25
+      react:
+        specifier: 18.3.0-canary-14898b6a9-20240318
+        version: 18.3.0-canary-14898b6a9-20240318
+      react-dom:
+        specifier: 18.3.0-canary-14898b6a9-20240318
+        version: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+      react-router:
+        specifier: ^7.5.0
+        version: 7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      vite:
+        specifier: ^5.4.11
+        version: 5.4.11(@types/node@22.13.10)
     devDependencies:
       '@eslint/js':
         specifier: ^9.22.0
@@ -70,6 +125,9 @@ importers:
       '@types/react':
         specifier: ^18.2.70
         version: 18.2.79
+      '@types/react-dom':
+        specifier: ^18.2.25
+        version: 18.2.25
       esbuild:
         specifier: ^0.25.1
         version: 0.25.1
@@ -88,12 +146,6 @@ importers:
       prettier:
         specifier: 3.5.3
         version: 3.5.3
-      react:
-        specifier: 18.3.0-canary-14898b6a9-20240318
-        version: 18.3.0-canary-14898b6a9-20240318
-      react-dom:
-        specifier: 18.3.0-canary-14898b6a9-20240318
-        version: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -109,9 +161,6 @@ importers:
       typescript-eslint:
         specifier: ^8.26.1
         version: 8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
-      vite:
-        specifier: ^5.4.11
-        version: 5.4.11(@types/node@22.13.10)
 
   apps/builder:
     dependencies:
@@ -2312,16 +2361,8 @@ packages:
     resolution: {integrity: sha512-5CHncttXohrHk8GWOFCcCl4oRD9fKosWlIRgWm4ql9VYioKm52Mk2xsmoohvm7f3JoiLSM5ZgJuRaf5QZZYd3Q==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-string-parser@7.25.7':
-    resolution: {integrity: sha512-CbkjYdsJNHFk8uqpEkpCvRs3YRp9tY6FmFY7wLMSYuGYkrdUi7r2lc4/wqsvlHoMznX3WJ9IP8giGPq68T/Y6g==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/helper-string-parser@7.25.9':
     resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.25.7':
-    resolution: {integrity: sha512-AM6TzwYqGChO45oiuPqwL2t20/HdMC1rTPAesnBCgPCSF1x3oN9MVUwQV2iyz4xqWrctwK5RNC8LV22kaQCNYg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.25.9':
@@ -2335,11 +2376,6 @@ packages:
   '@babel/helpers@7.26.0':
     resolution: {integrity: sha512-tbhNuIxNcVb21pInl3ZSjksLCvgdZy9KwJ8brv993QtIVKJBBkYXz4q4ZbAv31GdnC+R90np23L5FbEBlthAEw==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/parser@7.25.7':
-    resolution: {integrity: sha512-aZn7ETtQsjjGG5HruveUK06cU3Hljuhd9Iojm4M8WWv3wLE6OkE5PWbDUkItmMgegmccaITudyuW5RPYrYlgWw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   '@babel/parser@7.26.2':
     resolution: {integrity: sha512-DWMCZH9WA4Maitz2q21SRKHo9QXZxkDsbNZoVD62gusNtNBBqDg9i7uOhASfTfIGNzW+O+r7+jAlM8dwphcJKQ==}
@@ -2408,10 +2444,6 @@ packages:
 
   '@babel/traverse@7.25.9':
     resolution: {integrity: sha512-ZCuvfwOwlz/bawvAuvcj8rrithP2/N55Tzz342AkTvq4qaWbGfmCk/tKhNaV2cthijKrPAA8SRJV5WWe7IBMJw==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.25.7':
-    resolution: {integrity: sha512-vwIVdXG+j+FOpkwqHRcBgHLYNL7XMkufrlaFvL9o6Ai9sJn9+PdyIL5qa0XzTZw084c+u9LOls53eoZWP/W5WQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.26.0':
@@ -3633,9 +3665,6 @@ packages:
   '@jridgewell/set-array@1.2.1':
     resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
-
-  '@jridgewell/sourcemap-codec@1.4.15':
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
@@ -5419,6 +5448,60 @@ packages:
   '@web3-storage/multipart-parser@1.0.0':
     resolution: {integrity: sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==}
 
+  '@webstudio-is/css-engine@0.216.0':
+    resolution: {integrity: sha512-rz+Z0NLVcfjDzVr0IOJSkeRhgqNGkkdSan7xUv4ZFtmREVEcU/MlVqMAO4NduTxnty7USCu3QsKrzXtSPMtF9A==}
+
+  '@webstudio-is/fonts@0.216.0':
+    resolution: {integrity: sha512-kS5LsTcyLIDpkFCtDXl8mvV32VsB7rIJQKr6lb3WRDSY9ChKBK2RW8/Y9LLcikPERJJpmC1NnhYuIU+8CSdnkA==}
+    peerDependencies:
+      zod: ^3.19.1
+
+  '@webstudio-is/icons@0.216.0':
+    resolution: {integrity: sha512-cRFqzQ7jDBzuxO859LxA8G/gr/Wb9P1XuKmR3/GMG5tkKYASNdlfRWit5Tc/xUtqX4G8vOruYhuncO3OVoTeXg==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/image@0.216.0':
+    resolution: {integrity: sha512-qTSLqBS7/xIGArNXjWO7YKzWzbAWmT57qR1hS2uKgZYkqtYWQO+A5hKOGJFoOUrgPJ3qKp9+m1LTdJtGoE/IEg==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/react-sdk@0.216.0':
+    resolution: {integrity: sha512-qcKJWVTeaDB25W9Ql9SFOEif5fyP2a++vQl2atcW1Ka43wTnUSEIH/j6+wpDkvO9l7p4qkNNV7OGCyHNMcrP6w==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+      zod: ^3.19.1
+
+  '@webstudio-is/sdk-components-animation@0.216.0':
+    resolution: {integrity: sha512-a3EpyKOInTGG7r6q2iXr1vw1PNe2lXrbdEgOavkgkIMI/I0MKQmeFEAjEecV07DFmItcb8nYO7cd3KLnDd9mWA==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/sdk-components-react-radix@0.216.0':
+    resolution: {integrity: sha512-C1ceD27kjFciuV03Ktng5ttlvV9eJ+/khn0TNlfSPzcQjZ5TiS78kLQbfj6vDI8aa7GjJWQy8jBNAdLePZIBZA==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/sdk-components-react-router@0.216.0':
+    resolution: {integrity: sha512-T9JSA77txE+ohVbi0fkL50mqDLp13t1slvLffSNVCiwKTTO5Z5VX5MUFUH1d3GYpARYBP74tMr0cSY9v0nPJlA==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/sdk-components-react@0.216.0':
+    resolution: {integrity: sha512-ILeMIziFzgBRVar6rpfo/motDsTryppcwArQrkl5SOlpd02ZcfuThePoPZ0/8UtdeomoCIJtVYFl0bgMJQlHlA==}
+    peerDependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318
+
+  '@webstudio-is/sdk@0.216.0':
+    resolution: {integrity: sha512-CQvIFGKNt3W2S22/z7Hsw2nr5pPCqm56ns2vgtZDzgfz/u2kasqTRv9VXuPkf9x720nPm5PUllSi61jZ7X2+tg==}
+
   '@zxing/text-encoding@0.9.0':
     resolution: {integrity: sha512-U/4aVJ2mxI0aDNI8Uq0wEhMgY+u4CNtEb0om3+y3+niDAsoTCOB33UF0sxpzqzdqXLqmvc+vZyAt4O8pPdfkwA==}
 
@@ -5637,11 +5720,6 @@ packages:
   browserify-zlib@0.1.4:
     resolution: {integrity: sha512-19OEpq7vWgsH6WkvkBJQDFvJS1uPcbFOQ4v9CU839dO+ZZXUZO6XpE6hNCqvlIIj+4fZvRiJ6DsAQ382GwiyTQ==}
 
-  browserslist@4.24.3:
-    resolution: {integrity: sha512-1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-
   browserslist@4.24.4:
     resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -5679,9 +5757,6 @@ packages:
   cacache@17.1.4:
     resolution: {integrity: sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
-
-  call-bind@1.0.2:
-    resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
 
   call-bind@1.0.7:
     resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
@@ -6508,9 +6583,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  function-bind@1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
-
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -6524,9 +6596,6 @@ packages:
   get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
-
-  get-intrinsic@1.2.1:
-    resolution: {integrity: sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==}
 
   get-intrinsic@1.2.4:
     resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
@@ -7072,10 +7141,6 @@ packages:
   loupe@3.1.3:
     resolution: {integrity: sha512-kkIp7XSkP78ZxJEsSxW3712C6teJVoeHHwgo9zJ380de7IYyJ2ISlxojcH2pC5OFLewESmnRi/+XCDIEEVyoug==}
 
-  lru-cache@10.0.0:
-    resolution: {integrity: sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==}
-    engines: {node: 14 || >=16.14}
-
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
@@ -7575,9 +7640,6 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
-
-  node-fetch-native@1.6.4:
-    resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
 
   node-fetch-native@1.6.6:
     resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
@@ -8422,10 +8484,6 @@ packages:
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
 
-  signal-exit@4.0.2:
-    resolution: {integrity: sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==}
-    engines: {node: '>=14'}
-
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
@@ -8696,10 +8754,6 @@ packages:
   title-case@4.3.2:
     resolution: {integrity: sha512-I/nkcBo73mO42Idfv08jhInV61IMb61OdIFxk+B4Gu1oBjWBPOLmhZdsli+oJCVaD+86pYQA93cJfFt224ZFAA==}
 
-  to-fast-properties@2.0.0:
-    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
-    engines: {node: '>=4'}
-
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
@@ -8765,9 +8819,6 @@ packages:
 
   tslib@2.6.0:
     resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
-
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -9454,7 +9505,7 @@ snapshots:
       '@babel/traverse': 7.25.9
       '@babel/types': 7.26.0
       convert-source-map: 2.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -9467,7 +9518,7 @@ snapshots:
       '@babel/types': 7.26.0
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
-      jsesc: 3.0.2
+      jsesc: 3.1.0
 
   '@babel/helper-annotate-as-pure@7.22.5':
     dependencies:
@@ -9477,7 +9528,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.26.2
       '@babel/helper-validator-option': 7.25.9
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -9549,11 +9600,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.0
 
-  '@babel/helper-string-parser@7.25.7': {}
-
   '@babel/helper-string-parser@7.25.9': {}
-
-  '@babel/helper-validator-identifier@7.25.7': {}
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
@@ -9563,10 +9610,6 @@ snapshots:
     dependencies:
       '@babel/template': 7.25.9
       '@babel/types': 7.26.0
-
-  '@babel/parser@7.25.7':
-    dependencies:
-      '@babel/types': 7.25.7
 
   '@babel/parser@7.26.2':
     dependencies:
@@ -9646,16 +9689,10 @@ snapshots:
       '@babel/parser': 7.26.2
       '@babel/template': 7.25.9
       '@babel/types': 7.26.0
-      debug: 4.3.7
+      debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-
-  '@babel/types@7.25.7':
-    dependencies:
-      '@babel/helper-string-parser': 7.25.7
-      '@babel/helper-validator-identifier': 7.25.7
-      to-fast-properties: 2.0.0
 
   '@babel/types@7.26.0':
     dependencies:
@@ -10461,8 +10498,6 @@ snapshots:
 
   '@jridgewell/set-array@1.2.1': {}
 
-  '@jridgewell/sourcemap-codec@1.4.15': {}
-
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@jridgewell/trace-mapping@0.3.25':
@@ -10473,7 +10508,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   '@jspm/core@2.0.1': {}
 
@@ -12225,24 +12260,24 @@ snapshots:
 
   '@types/babel__core@7.20.5':
     dependencies:
-      '@babel/parser': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/parser': 7.26.2
+      '@babel/types': 7.26.0
       '@types/babel__generator': 7.6.4
       '@types/babel__template': 7.4.1
       '@types/babel__traverse': 7.18.2
 
   '@types/babel__generator@7.6.4':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.26.0
 
   '@types/babel__template@7.4.1':
     dependencies:
-      '@babel/parser': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/parser': 7.26.2
+      '@babel/types': 7.26.0
 
   '@types/babel__traverse@7.18.2':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.26.0
 
   '@types/better-sqlite3@7.6.12':
     dependencies:
@@ -12650,6 +12685,127 @@ snapshots:
 
   '@web3-storage/multipart-parser@1.0.0': {}
 
+  '@webstudio-is/css-engine@0.216.0':
+    dependencies:
+      '@emotion/hash': 0.9.2
+      '@webstudio-is/fonts': 0.216.0(zod@3.24.2)
+      zod: 3.24.2
+
+  '@webstudio-is/fonts@0.216.0(zod@3.24.2)':
+    dependencies:
+      zod: 3.24.2
+
+  '@webstudio-is/icons@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)':
+    dependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+
+  '@webstudio-is/image@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)':
+    dependencies:
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+      warn-once: 0.1.1
+
+  '@webstudio-is/react-sdk@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)':
+    dependencies:
+      '@webstudio-is/css-engine': 0.216.0
+      '@webstudio-is/fonts': 0.216.0(zod@3.24.2)
+      '@webstudio-is/icons': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/image': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      change-case: 5.4.4
+      html-tags: 4.0.0
+      nanoid: 5.0.9
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+      zod: 3.24.2
+
+  '@webstudio-is/sdk-components-animation@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)':
+    dependencies:
+      '@webstudio-is/css-engine': 0.216.0
+      '@webstudio-is/icons': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/react-sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      change-case: 5.4.4
+      nanostores: 0.11.3
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+      react-error-boundary: 5.0.0(react@18.3.0-canary-14898b6a9-20240318)
+      shallow-equal: 3.1.0
+    transitivePeerDependencies:
+      - zod
+
+  '@webstudio-is/sdk-components-react-radix@0.216.0(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)':
+    dependencies:
+      '@radix-ui/react-accordion': 1.2.3(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-checkbox': 1.1.4(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-collapsible': 1.1.3(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-dialog': 1.1.6(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-label': 2.1.2(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-navigation-menu': 1.2.5(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-popover': 1.1.6(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-radio-group': 1.2.3(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-select': 2.1.6(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-switch': 1.1.3(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-tabs': 1.1.3(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-tooltip': 1.1.8(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@radix-ui/react-use-controllable-state': 1.1.0(@types/react@18.2.79)(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/css-engine': 0.216.0
+      '@webstudio-is/icons': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/react-sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      await-interaction-response: 0.0.2
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
+      - zod
+
+  '@webstudio-is/sdk-components-react-router@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)':
+    dependencies:
+      '@webstudio-is/react-sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/sdk-components-react': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+      react-router: 7.5.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+    transitivePeerDependencies:
+      - supports-color
+      - zod
+
+  '@webstudio-is/sdk-components-react@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)':
+    dependencies:
+      '@react-aria/utils': 3.27.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/icons': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/image': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      '@webstudio-is/react-sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)(zod@3.24.2)
+      '@webstudio-is/sdk': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      await-interaction-response: 0.0.2
+      colord: 2.9.3
+      micromark: 4.0.2
+      micromark-extension-gfm-table: 2.1.1
+      react: 18.3.0-canary-14898b6a9-20240318
+      react-dom: 18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318)
+    transitivePeerDependencies:
+      - supports-color
+      - zod
+
+  '@webstudio-is/sdk@0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)':
+    dependencies:
+      '@webstudio-is/css-engine': 0.216.0
+      '@webstudio-is/fonts': 0.216.0(zod@3.24.2)
+      '@webstudio-is/icons': 0.216.0(react-dom@18.3.0-canary-14898b6a9-20240318(react@18.3.0-canary-14898b6a9-20240318))(react@18.3.0-canary-14898b6a9-20240318)
+      acorn: 8.14.1
+      acorn-walk: 8.3.4
+      change-case: 5.4.4
+      reserved-identifiers: 1.0.0
+      type-fest: 4.37.0
+      zod: 3.24.2
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
   '@zxing/text-encoding@0.9.0':
     optional: true
 
@@ -12887,13 +13043,6 @@ snapshots:
     dependencies:
       pako: 0.2.9
 
-  browserslist@4.24.3:
-    dependencies:
-      caniuse-lite: 1.0.30001690
-      electron-to-chromium: 1.5.76
-      node-releases: 2.0.19
-      update-browserslist-db: 1.1.1(browserslist@4.24.3)
-
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001690
@@ -12912,7 +13061,7 @@ snapshots:
 
   builtins@5.0.1:
     dependencies:
-      semver: 7.6.3
+      semver: 7.7.1
 
   busboy@1.6.0:
     dependencies:
@@ -12939,11 +13088,6 @@ snapshots:
       tar: 6.1.13
       unique-filename: 3.0.0
 
-  call-bind@1.0.2:
-    dependencies:
-      function-bind: 1.1.1
-      get-intrinsic: 1.2.1
-
   call-bind@1.0.7:
     dependencies:
       es-define-property: 1.0.0
@@ -12959,7 +13103,7 @@ snapshots:
   capnp-ts@0.7.0:
     dependencies:
       debug: 4.4.0
-      tslib: 2.6.2
+      tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13872,7 +14016,7 @@ snapshots:
   foreground-child@3.1.1:
     dependencies:
       cross-spawn: 7.0.6
-      signal-exit: 4.0.2
+      signal-exit: 4.1.0
 
   form-data-encoder@1.7.2: {}
 
@@ -13928,8 +14072,6 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  function-bind@1.1.1: {}
-
   function-bind@1.1.2: {}
 
   generic-names@4.0.0:
@@ -13939,13 +14081,6 @@ snapshots:
   gensync@1.0.0-beta.2: {}
 
   get-caller-file@2.0.5: {}
-
-  get-intrinsic@1.2.1:
-    dependencies:
-      function-bind: 1.1.1
-      has: 1.0.3
-      has-proto: 1.0.1
-      has-symbols: 1.0.3
 
   get-intrinsic@1.2.4:
     dependencies:
@@ -14021,7 +14156,7 @@ snapshots:
 
   gopd@1.0.1:
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
 
   graceful-fs@4.2.10: {}
 
@@ -14070,7 +14205,7 @@ snapshots:
 
   has@1.0.3:
     dependencies:
-      function-bind: 1.1.1
+      function-bind: 1.1.2
 
   hasown@2.0.2:
     dependencies:
@@ -14253,7 +14388,7 @@ snapshots:
 
   is-arguments@1.1.1:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       has-tostringtag: 1.0.0
 
   is-arrayish@0.3.2: {}
@@ -14330,7 +14465,7 @@ snapshots:
   is-typed-array@1.1.10:
     dependencies:
       available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
       has-tostringtag: 1.0.0
@@ -14513,8 +14648,6 @@ snapshots:
   loupe@3.1.2: {}
 
   loupe@3.1.3: {}
-
-  lru-cache@10.0.0: {}
 
   lru-cache@10.4.3: {}
 
@@ -15363,8 +15496,6 @@ snapshots:
 
   node-domexception@1.0.0: {}
 
-  node-fetch-native@1.6.4: {}
-
   node-fetch-native@1.6.6: {}
 
   node-fetch@2.6.9:
@@ -15441,7 +15572,7 @@ snapshots:
   ofetch@1.4.1:
     dependencies:
       destr: 2.0.3
-      node-fetch-native: 1.6.4
+      node-fetch-native: 1.6.6
       ufo: 1.5.4
 
   on-finished@2.3.0:
@@ -15599,7 +15730,7 @@ snapshots:
 
   path-scurry@1.10.1:
     dependencies:
-      lru-cache: 10.0.0
+      lru-cache: 10.4.3
       minipass: 7.0.4
 
   path-to-regexp@0.1.10: {}
@@ -16276,8 +16407,6 @@ snapshots:
 
   signal-exit@3.0.7: {}
 
-  signal-exit@4.0.2: {}
-
   signal-exit@4.1.0: {}
 
   simple-git-hooks@2.11.1: {}
@@ -16545,8 +16674,6 @@ snapshots:
 
   title-case@4.3.2: {}
 
-  to-fast-properties@2.0.0: {}
-
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
@@ -16603,8 +16730,6 @@ snapshots:
       strip-bom: 3.0.0
 
   tslib@2.6.0: {}
-
-  tslib@2.6.2: {}
 
   tslib@2.8.1: {}
 
@@ -16784,12 +16909,6 @@ snapshots:
       citty: 0.1.6
       consola: 3.4.2
       pathe: 1.1.2
-
-  update-browserslist-db@1.1.1(browserslist@4.24.3):
-    dependencies:
-      browserslist: 4.24.3
-      escalade: 3.2.0
-      picocolors: 1.1.1
 
   update-browserslist-db@1.1.1(browserslist@4.24.4):
     dependencies:
